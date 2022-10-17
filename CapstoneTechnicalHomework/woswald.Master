@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="woswald.Master.cs" Inherits="CapstoneTechnicalHomework.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <h1 style="color:slateblue">Woswald Master Page</h1>
+                <div style="display:flex;flex-direction:row;justify-content:space-around;width:25%;">
+                    <a href="Content1.aspx">Main Content</a>
+                    <a href="Content2.aspx">Page Two</a>
+                    <a href="Content3.aspx">Page Three</a>
+                </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">           
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
